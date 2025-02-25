@@ -1,10 +1,9 @@
 import { useState } from 'react'
-
+import Header from './Header'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+      <Header />
       <div className="bg-red-500">
         <h1>Hello World</h1>
       </div>
