@@ -1,7 +1,8 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif, Epilogue, Noto Sans;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif, Epilogue,
+    Noto Sans;
   line-height: 1.5;
   font-weight: 400;
 
@@ -22,7 +23,6 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-
 
 @media (prefers-color-scheme: light) {
   :root {
