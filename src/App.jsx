@@ -3,6 +3,7 @@ import Header from "./Header";
 import Hero from "./Hero";
 import Upload from "./Upload";
 import Prompt from "./Prompt";
+import Loading from "./Loading";
 import Result from "./Result";
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
         {currentPage === "hero" && <Hero setCurrentPage={setCurrentPage} />}
         {currentPage === "upload" && <Upload setCurrentPage={setCurrentPage} />}
         {currentPage === "prompt" && <Prompt setCurrentPage={setCurrentPage} />}
+        {currentPage === "loading" && (
+          <Loading setCurrentPage={setCurrentPage} />
+        )}
         {currentPage === "result" && <Result setCurrentPage={setCurrentPage} />}
       </div>
     </div>

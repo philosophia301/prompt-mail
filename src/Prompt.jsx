@@ -58,7 +58,7 @@ export default function Prompt({ setCurrentPage }) {
             </button>
             <button
               className="flex min-w-[84px] max-w-[100px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#308ce8] text-white text-sm font-bold leading-normal tracking-[0.015em]"
-              onClick={() => setCurrentPage("result")}
+              onClick={() => setCurrentPage("loading")}
             >
               <span className="truncate">Generate</span>
             </button>
