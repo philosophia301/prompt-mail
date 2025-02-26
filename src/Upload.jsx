@@ -9,7 +9,7 @@ export default function Upload({ setCurrentPage }) {
         <h3 className="text-[#111418] tracking-light text-4xl font-black leading-tight px-4 text-left pb-2 pt-5">
           Upload a photo of someone special to you
         </h3>
-        <p className="text-[#111418] text-base font-normal leading-normal pb-3 pt-1 px-4">
+        <p className="text-[#8c9aa7] text-base font-normal leading-normal pb-3 pt-1 px-4">
           Upload a photo of someone you care about and we'll help you create a
           meaningful writing prompt based on your special memory.
         </p>
